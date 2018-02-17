@@ -1,0 +1,9 @@
+dockerds:
+  image: abnair/dockerdsjupyter
+  ports:
+    - 8888:8888
+  environment:
+    - no_proxy=localhost
+  volumes:
+    - ./data:/data
+    - ./notebooks:/notebooks
