@@ -1,5 +1,5 @@
 dockerds:
-  image: abnair/dockerdsjupyter
+  image: abnair/dockerdatascience
   ports:
     - 8888:8888
   environment:
