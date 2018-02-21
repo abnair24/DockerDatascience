@@ -20,4 +20,4 @@ VOLUME ["/data", "/notebooks", "/tmp/tflearn_logs"]
 #expose jupyter port
 EXPOSE 8888
 
-CMD jupyter notebook --no-browser --ip=0.0.0.0 --allow-root --NotebookApp.token='demo'
+CMD jupyter lab --no-browser --ip=0.0.0.0 --allow-root
